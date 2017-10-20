@@ -19,8 +19,6 @@ class Person(object):
         If a person is infected, will instead be set to the virus object the person
         is infected with.
 '''
-
-
     def __init__(self, _id, is_vaccinated, is_alive, infection=None):
         self._id = _id
         self.is_vaccinated = is_vaccinated
